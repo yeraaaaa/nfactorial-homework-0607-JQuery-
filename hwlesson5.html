@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hwlesson5.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body onload="pageLoadFunction()">>
+    <div class="main">
+        <div class="assignment">Assignment 7</div>
+        <div class="menueAndPage">
+            <div class="menue">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid" style="display: flex; flex-direction: column;">
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="#">WebSiteName</a>
+                      </div>
+                      <ul class="nav navbar-nav" style="display: flex; flex-direction: column;">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><button class="firstLink">Page 1</button></li>
+                        <li><button class="secondLink">Page 2</button></li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+            <div class="page">
+                <div class="first" style="background-color: rgba(146, 218, 39, 0.519); width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center;">
+                    <div class="madLibs">Mad Libs</div>
+                    <div class="input" style="border: 1px solid grey; width: 70%; height: 70% justify-content: center; align-items: center;">
+                        <form style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                            <div class="form-group" style="width: 60%; height: 20%; margin-top: 10px; justify-content: center; align-items: center;">
+                              <label for="usr">Person Name:</label>
+                              <input type="text" class="form-control name" id="usr">
+                            </div>
+                            <div class="form-group" style="width: 60%; height: 20%; margin-top: 10px;">
+                                <label for="usr">Character:</label>
+                                <input type="text" class="form-control character" id="usr">
+                            </div>
+                            <div class="form-group" style="width: 60%; height: 20%; margin-top: 10px;">
+                                <label for="usr">Adverb:</label>
+                                <input type="text" class="form-control adverb" id="usr">
+                            </div>
+                            <div class="form-group" style="width: 60%; height: 20%; margin-top: 10px;">
+                                <label for="usr">Adjective:</label>
+                                <input type="text" class="form-control adjective" id="usr">
+                            </div>
+                            <button class="tellStory">Tell story</button>
+                          </form>
+                    </div>
+                    <!--<div class="output" style="border: 3px solid grey; width: 50%; height: 50%"></div>!-->
+                </div>
+                <div class="second" style="background-color: rgba(146, 218, 39, 0.519); width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center;">
+                  <div class="madLibs">Tom Thumb</div>
+                    <div class="input" style="border: 1px solid grey; width: 70%; height: 70% justify-content: center; align-items: center;">
+                        <form style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                            <div class="form-group" style="width: 60%; height: 20%; margin-top: 10px; justify-content: center; align-items: center;">
+                              <label for="usr">Image height(px):</label>
+                              <input type="text" class="form-control height1" id="usr">
+                            </div>
+                            <div class="form-group" style="width: 60%; height: 20%; margin-top: 10px;">
+                                <label for="usr">Image width(px):</label>
+                                <input type="text" class="form-control width1" id="usr">
+                            </div>
+                            <div class="form-group" style="width: 60%; height: 20%; margin-top: 10px;">
+                                <label for="usr">Number of colors:</label>
+                                <input type="text" class="form-control colors1" id="usr">
+                            </div>
+                            <button class="tellSize">Tell size</button>
+                          </form>
+                    </div>
+                </div>
+                <div class="third" style="background-color: peachpuff; width: 100%; height: 100%;">This is my HomeWork5</div>
+                
+                <div class="story" style="background-color: rgba(146, 218, 39, 0.519); width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center;">
+                  yera
+                </div>
+              </div>
+        </div>
+        <div class="end"></div>
+    </div>
+    
+    <script src="./hwlesson5.js"></script>
+</body>
+</html>
